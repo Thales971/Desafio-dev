@@ -71,6 +71,31 @@ console.table(producao);
 console.log
 ("Estilo Removido:", estiloRemovido)
 
+console.log(`-------------------------`);
+
+//Cancelamento de última inscrição
+ 
+let inscritos = [
+    "Pedro", "Larissa", "João", "Amanda", "Lucas", "Mariana"
+  ];
+
+  console.log
+("Antes do pop");
+console.table(inscritos);
+
+// Removendo ultimo 
+let pessoaRemovidoo = inscritos.pop();
+
+console.log("Depois do pop");
+console.table(inscritos);
+
+console.log
+(" Pessoa removida:", pessoaRemovidoo)
+
+console.log(`--------------------`);
+
+
+
   
 
 
