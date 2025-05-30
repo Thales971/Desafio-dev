@@ -167,20 +167,36 @@ console.table(chamada);
 
 console.log(`---------------`);
 
- //– Conferência de presença
+//– Conferência de presença
 
- let presenca = [
+let presenca = [
   "João Lima",
   "Carla Nunes",
   "Amanda Souza",
   "Bruno Ribeiro",
-  "Fernanda Sales"
+  "Fernanda Sales",
 ];
 
- console.log("A lista inclui a Amanda Souza ?", presenca.includes('Amanda Souza'));
+console.log(
+  "A lista inclui a Amanda Souza ?",
+  presenca.includes("Amanda Souza")
+);
 
+console.log(`------------------------`);
 
+//– Verificação de produto em estoque
 
+let estoque = [
+  "mesa para PC",
+  "cadeira gamer",
+  "monitor 27 polegadas",
+  "hub USB",
+  "mouse sem fio",
+];
+console.table(estoque);
+console.log(
+  "O estoque inclui 'cadeira gamer' ?",
+  estoque.includes("cadeira gamer")
+);
 
-
-
+console.log(`---------------------------`);
