@@ -271,3 +271,27 @@ console.log("parte da lista (índices 0 ao 5):", artigosBlog.slice(0, 4));
 console.log(`---------------------`);
 
 
+//– Remoção de itens inativos no menu
+
+let menuNavegacao = [
+  "Início",
+  "Serviços",
+  "Portfólio",
+  "Blog",
+  "Contato",
+  "Login",
+  "Área do cliente"
+];
+
+console.log("Antes do splice:");
+console.table(menuNavegacao);
+
+// Removendo 2 elementos 
+
+let elementosRemovidos = menuNavegacao.splice(2, 3);
+
+console.log("Depois do splice");
+console.table(menuNavegacao);
+
+console.log("Elementos removidos:",elementosRemovidos);
+
