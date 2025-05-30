@@ -119,6 +119,32 @@ console.log
 
 console.log(`-------------------`);
 
+//– Primeira mensagem indevida
+
+let mensagens = [
+    "Propaganda indevida",
+    "Bom dia, posso ajudar?",
+    "Preciso de suporte técnico",
+    "Claro, qual o problema?",
+    "Erro ao acessar conta"
+  ];
+
+  console.log
+("Antes do Shift");
+console.table(mensagens);
+
+// Removendo o primeiro 
+let mensagemRemovida = mensagens.shift();
+
+console.log("Depois do shift");
+console.table(mensagens)
+
+console.log
+("Mensagem Removido:", mensagemRemovida)
+
+console.log(`-----------------`);
+
+
 
 
 
