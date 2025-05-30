@@ -232,3 +232,22 @@ console.log("palavras chave com String: ", ingredientes.join("_"));
 
 console.log(`--------------------------------`);
 
+// – Relatório de férias: Primeira semana
+
+let diasFaltas = [
+  "Carlos – Segunda",
+  "Carlos – Terça",
+  "Carlos – Quarta",
+  "Carlos – Quinta",
+  "Carlos – Sexta",
+  "Carlos – Segunda (semana 2)",
+  "Carlos – Terça (semana 2)",
+  "Carlos – Quarta (semana 2)"
+];
+
+console.table(diasFaltas)
+console.log("parte da lista (índices 0 ao 5):", diasFaltas.slice(0, 5)); 
+
+console.log(`---------------------`);
+
+
