@@ -218,3 +218,17 @@ console.log("Ingredientes com String: ", ingredientes.join(", "));
 console.log(`------------------`);
 
 
+//Tags para URL
+
+let palavrasChave = [
+  "desenvolvimento",
+  "frontend",
+  "javascript",
+  "css",
+  "react"
+];
+
+console.log("palavras chave com String: ", ingredientes.join("_"));
+
+console.log(`--------------------------------`);
+
