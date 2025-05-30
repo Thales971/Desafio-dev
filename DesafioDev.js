@@ -144,6 +144,32 @@ console.log
 
 console.log(`-----------------`);
 
+//  Prioridade na fila
+
+let filaAtendimento = [
+    "cliente 003",
+    "cliente 004",
+    "cliente 005",
+    "cliente 006",
+    "cliente 007"
+  ];
+  
+  console.log
+("Antes do UnShift");
+console.table(filaAtendimento);
+
+filaAtendimento.unshift("cliente 002")
+filaAtendimento.unshift("cliente 001")
+
+
+console.log("Depois do Unshift");
+console.table(filaAtendimento);
+
+console.log(`---------------------`);
+
+
+
+
 
 
 
