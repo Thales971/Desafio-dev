@@ -164,3 +164,23 @@ filaAtendimento.unshift("Rafaela");
 
 console.log("Depois do Unshift chamada");
 console.table(chamada);
+
+console.log(`---------------`);
+
+ //– Conferência de presença
+
+ let presenca = [
+  "João Lima",
+  "Carla Nunes",
+  "Amanda Souza",
+  "Bruno Ribeiro",
+  "Fernanda Sales"
+];
+
+ console.log("A lista inclui a Amanda Souza ?", presenca.includes('Amanda Souza'));
+
+
+
+
+
+
