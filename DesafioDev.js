@@ -200,3 +200,21 @@ console.log(
 );
 
 console.log(`---------------------------`);
+
+
+
+// Lista de receita de Bolo
+let ingredientes = [
+  "farinha de trigo",
+  "fermento",
+  "leite",
+  "ovos",
+  "açúcar",
+  "manteiga"
+];
+
+console.log("Ingredientes com String: ", ingredientes.join(", "));
+
+console.log(`------------------`);
+
+
