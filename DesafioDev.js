@@ -62,14 +62,14 @@ let producao = [
 ("Antes do pop");
 console.table(producao);
 
-// Removendo ultimo estilo
-let estiloRemovido = producao.pop();
+// Removendo produto
+let produtoRemovido = producao.pop();
 
 console.log("Depois do pop");
 console.table(producao);
 
 console.log
-("Estilo Removido:", estiloRemovido)
+("Produto Removido:", produtoRemovido)
 
 console.log(`-------------------------`);
 
@@ -93,6 +93,32 @@ console.log
 (" Pessoa removida:", pessoaRemovidoo)
 
 console.log(`--------------------`);
+
+// 5 – Erro de importação
+
+let importados = [
+    "carregador portátil",
+    "cabo HDMI",
+    "leitor biométrico",
+    "controle sem fio",
+    "webcam 4K"
+  ];
+
+  console.log
+("Antes do Shift");
+console.table(importados);
+
+// Removendo o primeiro estilo
+let importadosRemovido = importados.shift();
+
+console.log("Depois do shift");
+console.table(importados);
+
+console.log
+("Importado Removido:", importadosRemovido)
+
+console.log(`-------------------`);
+
 
 
 
