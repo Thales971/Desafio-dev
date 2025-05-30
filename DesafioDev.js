@@ -45,5 +45,34 @@ cardapio.push("wrap de frango");
 console.log("depois do push");
 console.table(cardapio);
 
+console.log("---------------");
+
+//Último produto com defeito
+
+let producao = [
+    "mousepad",
+    "placa de vídeo",
+    "fonte de alimentação",
+    "HD externo",
+    "notebook gamer",
+    "roteador"
+  ];
+
+  console.log
+("Antes do pop");
+console.table(producao);
+
+// Removendo ultimo estilo
+let estiloRemovido = producao.pop();
+
+console.log("Depois do pop");
+console.table(producao);
+
+console.log
+("Estilo Removido:", estiloRemovido)
+
+  
+
+
   
 
