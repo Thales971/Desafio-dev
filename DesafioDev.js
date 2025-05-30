@@ -251,3 +251,23 @@ console.log("parte da lista (índices 0 ao 5):", diasFaltas.slice(0, 5));
 console.log(`---------------------`);
 
 
+//  – Destaques da semana no blog
+
+
+let artigosBlog = [
+  "Como usar Docker com Node.js",
+  "5 erros comuns em JavaScript",
+  "Introdução ao TypeScript",
+  "Clean Code na prática",
+  "Design Patterns úteis",
+  "Refatoração de código",
+  "Boas práticas de API REST",
+  "Segurança em aplicações web"
+];
+
+console.table(artigosBlog)
+console.log("parte da lista (índices 0 ao 5):", artigosBlog.slice(0, 4)); 
+
+console.log(`---------------------`);
+
+
