@@ -298,6 +298,8 @@ console.log("Elementos removidos:",elementosRemovidos);
 
 console.log(`---------------------`);
 
+// 16 – Substituição de matérias na grade
+
 let gradeCurricular = [
   "Matemática",
   "Português",
@@ -319,6 +321,26 @@ gradeCurricular.splice(3,0,"Robótica")
 console.log(gradeCurricular)
 
 console.log(`---------------------`);
+
+
+// 17 – Atualização de lista de usuários
+
+let usuariosSistema1 = [
+  "aline.souza",
+  "maria.ferreira",
+  "carlos.lima",
+  "ana.martins"
+]
+
+let usuariosSistema2 = [
+  "joao.silva",
+  "paulo.pereira",
+  "fernanda.alves",
+  "marcelo.cardoso"
+]
+
+// juntando as duas listas
+console.log("Todos os usuarios do sistema:", usuariosSistema1.concat(usuariosSistema2));
 
 
 
