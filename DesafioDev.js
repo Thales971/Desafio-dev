@@ -365,4 +365,26 @@ console.log("Hardwares e perifericos:", hardwares.concat(perifericos));
 
 console.log(`---------------------`);
 
+// 19 – Códigos de produtos formatados
+
+let codigos = [
+  "abc123",
+  "def456",
+  "ghi789",
+  "jkl012",
+  "mno345",
+  "pqr678",
+  "stu901",
+  "vwx234"
+]
+
+//Transformando as letras em maiusculas
+let codigosEmMaiusculo = codigos.map(item => item.toUpperCase());
+
+console.log("Nova lista em maiusculo:",codigosEmMaiusculo)
+
+console.log(`---------------------`);
+
+
+
 
