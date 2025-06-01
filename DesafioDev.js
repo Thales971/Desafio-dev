@@ -466,6 +466,29 @@ console.log(listaOrdenada);
 
 console.log(`---------------------`);
 
+//25– Últimas atualizações do sistema
+
+
+let atualizacoes = [
+  "Backup diário concluído",
+  "Servidor reiniciado",
+  "Nova versão implantada",
+  "Logs exportados",
+  "Firewall atualizado",
+  "Monitoramento ativado",
+  "Banco de dados otimizado",
+  "Script de segurança executado"
+]
+
+// invertenção da lista
+let atualizacoesRecentes = atualizacoes.reverse();
+
+console.log(atualizacoesRecentes);
+
+console.log(`---------------------`);
+
+
+
 
 
 
