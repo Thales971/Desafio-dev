@@ -1,4 +1,4 @@
-// Cadastro de novos produtos
+//1- Cadastro de novos produtos
 
 let promocoes = [
   "teclado mecânico",
@@ -22,7 +22,7 @@ console.table(promocoes);
 
 console.log("-------------------------");
 
-// Adicionar itens ao cardapio
+//2- Adicionar itens ao cardapio
 let cardapio = [
   "pizza de calabresa",
   "lasanha",
@@ -44,7 +44,7 @@ console.table(cardapio);
 
 console.log("---------------");
 
-//Último produto com defeito
+//3- Último produto com defeito
 
 let producao = [
   "mousepad",
@@ -58,7 +58,7 @@ let producao = [
 console.log("Antes do pop");
 console.table(producao);
 
-// Removendo produto
+//- Removendo produto
 let produtoRemovido = producao.pop();
 
 console.log("Depois do pop");
@@ -68,14 +68,14 @@ console.log("Produto Removido:", produtoRemovido);
 
 console.log(`-------------------------`);
 
-//Cancelamento de última inscrição
+//4-Cancelamento de última inscrição
 
 let inscritos = ["Pedro", "Larissa", "João", "Amanda", "Lucas", "Mariana"];
 
 console.log("Antes do pop");
 console.table(inscritos);
 
-// Removendo ultimo
+//- Removendo ultimo
 let pessoaRemovidoo = inscritos.pop();
 
 console.log("Depois do pop");
@@ -108,7 +108,7 @@ console.log("Importado Removido:", importadosRemovido);
 
 console.log(`-------------------`);
 
-//– Primeira mensagem indevida
+//6– Primeira mensagem indevida
 
 let mensagens = [
   "Propaganda indevida",
@@ -131,7 +131,7 @@ console.log("Mensagem Removido:", mensagemRemovida);
 
 console.log(`-----------------`);
 
-//  Prioridade na fila
+// 7 Prioridade na fila
 
 let filaAtendimento = [
   "cliente 003",
@@ -152,7 +152,7 @@ console.table(filaAtendimento);
 
 console.log(`---------------------`);
 
-// – Alunos transferidos
+//8 – Alunos transferidos
 
 let chamada = ["Carlos", "Fernanda", "João", "Mariana", "Lucas", "Camila"];
 
@@ -167,7 +167,7 @@ console.table(chamada);
 
 console.log(`---------------`);
 
-//– Conferência de presença
+//9– Conferência de presença
 
 let presenca = [
   "João Lima",
@@ -184,7 +184,7 @@ console.log(
 
 console.log(`------------------------`);
 
-//– Verificação de produto em estoque
+//10– Verificação de produto em estoque
 
 let estoque = [
   "mesa para PC",
@@ -203,7 +203,7 @@ console.log(`---------------------------`);
 
 
 
-// Lista de receita de Bolo
+//11 Lista de receita de Bolo
 let ingredientes = [
   "farinha de trigo",
   "fermento",
@@ -218,7 +218,7 @@ console.log("Ingredientes com String: ", ingredientes.join(", "));
 console.log(`------------------`);
 
 
-//Tags para URL
+//12 Tags para URL
 
 let palavrasChave = [
   "desenvolvimento",
@@ -232,7 +232,7 @@ console.log("palavras chave com String: ", ingredientes.join("_"));
 
 console.log(`--------------------------------`);
 
-// – Relatório de férias: Primeira semana
+//13 – Relatório de férias: Primeira semana
 
 let diasFaltas = [
   "Carlos – Segunda",
@@ -251,7 +251,7 @@ console.log("parte da lista (índices 0 ao 5):", diasFaltas.slice(0, 5));
 console.log(`---------------------`);
 
 
-//  – Destaques da semana no blog
+//14  – Destaques da semana no blog
 
 
 let artigosBlog = [
@@ -271,7 +271,7 @@ console.log("parte da lista (índices 0 ao 5):", artigosBlog.slice(0, 4));
 console.log(`---------------------`);
 
 
-//– Remoção de itens inativos no menu
+//15– Remoção de itens inativos no menu
 
 let menuNavegacao = [
   "Início",
