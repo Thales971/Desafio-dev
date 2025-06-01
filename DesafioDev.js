@@ -298,5 +298,27 @@ console.log("Elementos removidos:",elementosRemovidos);
 
 console.log(`---------------------`);
 
+let gradeCurricular = [
+  "Matemática",
+  "Português",
+  "Biologia",
+  "Física",
+  "História",
+  "Educação Física",
+  "Inglês"
+]
+
+//removendo o item 
+gradeCurricular.splice(2,1)
+gradeCurricular.splice(3,1)
+
+//adicionando 
+gradeCurricular.splice(2,0,"Programação")
+gradeCurricular.splice(3,0,"Robótica")
+
+console.log(gradeCurricular)
+
+console.log(`---------------------`);
+
 
 
