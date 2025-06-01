@@ -201,8 +201,6 @@ console.log(
 
 console.log(`---------------------------`);
 
-
-
 //11 Lista de receita de Bolo
 let ingredientes = [
   "farinha de trigo",
@@ -210,13 +208,12 @@ let ingredientes = [
   "leite",
   "ovos",
   "açúcar",
-  "manteiga"
+  "manteiga",
 ];
 
 console.log("Ingredientes com String: ", ingredientes.join(", "));
 
 console.log(`------------------`);
-
 
 //12 Tags para URL
 
@@ -225,7 +222,7 @@ let palavrasChave = [
   "frontend",
   "javascript",
   "css",
-  "react"
+  "react",
 ];
 
 console.log("palavras chave com String: ", ingredientes.join("_"));
@@ -242,17 +239,15 @@ let diasFaltas = [
   "Carlos – Sexta",
   "Carlos – Segunda (semana 2)",
   "Carlos – Terça (semana 2)",
-  "Carlos – Quarta (semana 2)"
+  "Carlos – Quarta (semana 2)",
 ];
 
-console.table(diasFaltas)
-console.log("parte da lista (índices 0 ao 5):", diasFaltas.slice(0, 5)); 
+console.table(diasFaltas);
+console.log("parte da lista (índices 0 ao 5):", diasFaltas.slice(0, 5));
 
 console.log(`---------------------`);
 
-
 //14  – Destaques da semana no blog
-
 
 let artigosBlog = [
   "Como usar Docker com Node.js",
@@ -262,14 +257,13 @@ let artigosBlog = [
   "Design Patterns úteis",
   "Refatoração de código",
   "Boas práticas de API REST",
-  "Segurança em aplicações web"
+  "Segurança em aplicações web",
 ];
 
-console.table(artigosBlog)
-console.log("parte da lista (índices 0 ao 5):", artigosBlog.slice(0, 4)); 
+console.table(artigosBlog);
+console.log("parte da lista (índices 0 ao 5):", artigosBlog.slice(0, 4));
 
 console.log(`---------------------`);
-
 
 //15– Remoção de itens inativos no menu
 
@@ -280,21 +274,20 @@ let menuNavegacao = [
   "Blog",
   "Contato",
   "Login",
-  "Área do cliente"
+  "Área do cliente",
 ];
 
 console.log("Antes do splice:");
 console.table(menuNavegacao);
 
-// Removendo 2 elementos 
+// Removendo 2 elementos
 
 let elementosRemovidos = menuNavegacao.splice(2, 3);
 
 console.log("Depois do splice");
 console.table(menuNavegacao);
 
-console.log("Elementos removidos:",elementosRemovidos);
-
+console.log("Elementos removidos:", elementosRemovidos);
 
 console.log(`---------------------`);
 
@@ -307,21 +300,20 @@ let gradeCurricular = [
   "Física",
   "História",
   "Educação Física",
-  "Inglês"
-]
+  "Inglês",
+];
 
-//removendo o item 
-gradeCurricular.splice(2,1)
-gradeCurricular.splice(3,1)
+//removendo o item
+gradeCurricular.splice(2, 1);
+gradeCurricular.splice(3, 1);
 
-//adicionando 
-gradeCurricular.splice(2,0,"Programação")
-gradeCurricular.splice(3,0,"Robótica")
+//adicionando
+gradeCurricular.splice(2, 0, "Programação");
+gradeCurricular.splice(3, 0, "Robótica");
 
-console.log(gradeCurricular)
+console.log(gradeCurricular);
 
 console.log(`---------------------`);
-
 
 // 17 – Atualização de lista de usuários
 
@@ -329,36 +321,34 @@ let usuariosSistema1 = [
   "aline.souza",
   "maria.ferreira",
   "carlos.lima",
-  "ana.martins"
-]
+  "ana.martins",
+];
 
 let usuariosSistema2 = [
   "joao.silva",
   "paulo.pereira",
   "fernanda.alves",
-  "marcelo.cardoso"
-]
+  "marcelo.cardoso",
+];
 
 // juntando as duas listas
-console.log("Todos os usuarios do sistema:", usuariosSistema1.concat(usuariosSistema2));
+console.log(
+  "Todos os usuarios do sistema:",
+  usuariosSistema1.concat(usuariosSistema2)
+);
 
 console.log(`---------------------`);
 
 //18 – Catálogo unificado
 
-let hardwares = [
-  "processador i7",
-  "placa-mãe",
-  "memória RAM 16GB",
-  "SSD 1TB"
-]
+let hardwares = ["processador i7", "placa-mãe", "memória RAM 16GB", "SSD 1TB"];
 
 let perifericos = [
   "teclado gamer",
   "mouse ótico",
   "webcam HD",
-  "fone com microfone"
-]
+  "fone com microfone",
+];
 
 // juntando as duas listas
 console.log("Hardwares e perifericos:", hardwares.concat(perifericos));
@@ -375,33 +365,24 @@ let codigos = [
   "mno345",
   "pqr678",
   "stu901",
-  "vwx234"
-]
+  "vwx234",
+];
 
 //Transformando as letras em maiusculas
-let codigosEmMaiusculo = codigos.map(item => item.toUpperCase());
+let codigosEmMaiusculo = codigos.map((item) => item.toUpperCase());
 
-console.log("Nova lista em maiusculo:",codigosEmMaiusculo)
+console.log("Nova lista em maiusculo:", codigosEmMaiusculo);
 
 console.log(`---------------------`);
 
-
 //20 – Formatando lista de preços
 
-let precos = [
-  129.9,
-  399.5,
-  259.0,
-  89.9,
-  599.99,
-  39.5,
-  999.0
-]
+let precos = [129.9, 399.5, 259.0, 89.9, 599.99, 39.5, 999.0];
 
-// adicionando "R$" 
-let reais = precos.map(item => "R$" + item)
+// adicionando "R$"
+let reais = precos.map((item) => "R$" + item);
 
-console.log(reais)
+console.log(reais);
 
 console.log(`---------------------`);
 
@@ -413,11 +394,11 @@ let estoquess = [
   { produto: "Monitor", quantidade: 3 },
   { produto: "Notebook", quantidade: 18 },
   { produto: "Impressora", quantidade: 9 },
-  { produto: "Webcam", quantidade: 20 }
+  { produto: "Webcam", quantidade: 20 },
 ];
 
-let produtosAcimaDasUnidades = estoquess.filter(item => item.quantidade > 10);
-  console.log("Os produtos com mais de 10 unidades: ", produtosAcimaDasUnidades);  
+let produtosAcimaDasUnidades = estoquess.filter((item) => item.quantidade > 10);
+console.log("Os produtos com mais de 10 unidades: ", produtosAcimaDasUnidades);
 
 console.log(`---------------------`);
 
@@ -429,15 +410,14 @@ let alunos = [
   { nome: "Lucas", media: 8.1 },
   { nome: "Marina", media: 5.9 },
   { nome: "João", media: 7.0 },
-  { nome: "Aline", media: 9.3 }
+  { nome: "Aline", media: 9.3 },
 ];
-let alunosAprovados = alunos.filter(aluno => aluno.media >= 7);
+let alunosAprovados = alunos.filter((aluno) => aluno.media >= 7);
 console.log("Alunos com a média acima de 7:", alunosAprovados);
 
 console.log(`---------------------`);
 
 //23 – Organizar lista de candidatos
-
 
 let candidatos = [
   "Marcos",
@@ -447,8 +427,8 @@ let candidatos = [
   "Fernanda",
   "Lucas",
   "Bruno",
-  "Isabela"
-]
+  "Isabela",
+];
 
 // Em ordem alfabetica
 let alfabetica = candidatos.sort();
@@ -468,7 +448,6 @@ console.log(`---------------------`);
 
 //25– Últimas atualizações do sistema
 
-
 let atualizacoes = [
   "Backup diário concluído",
   "Servidor reiniciado",
@@ -477,8 +456,8 @@ let atualizacoes = [
   "Firewall atualizado",
   "Monitoramento ativado",
   "Banco de dados otimizado",
-  "Script de segurança executado"
-]
+  "Script de segurança executado",
+];
 
 // invertenção da lista
 let atualizacoesRecentes = atualizacoes.reverse();
@@ -496,21 +475,14 @@ let historico = [
   "detalhes do cliente",
   "editar dados",
   "configurações",
-  "logout"
-]
+  "logout",
+];
 
 // invertendo a lista
-let ReverseHistorico = historico.reverse()
+let ReverseHistorico = historico.reverse();
 
-console.log(historico)
+console.log(historico);
 
 console.log(`---------------------`);
 
 // Fim ^_____^
-
-
-
-
-
-
-
