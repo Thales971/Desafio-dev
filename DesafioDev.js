@@ -487,6 +487,28 @@ console.log(atualizacoesRecentes);
 
 console.log(`---------------------`);
 
+//26 – Histórico de navegação
+
+let historico = [
+  "login",
+  "painel",
+  "relatórios",
+  "detalhes do cliente",
+  "editar dados",
+  "configurações",
+  "logout"
+]
+
+// invertendo a lista
+let ReverseHistorico = historico.reverse()
+
+console.log(historico)
+
+console.log(`---------------------`);
+
+// Fim ^_____^
+
+
 
 
 
