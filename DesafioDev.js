@@ -342,5 +342,27 @@ let usuariosSistema2 = [
 // juntando as duas listas
 console.log("Todos os usuarios do sistema:", usuariosSistema1.concat(usuariosSistema2));
 
+console.log(`---------------------`);
+
+//18 – Catálogo unificado
+
+let hardwares = [
+  "processador i7",
+  "placa-mãe",
+  "memória RAM 16GB",
+  "SSD 1TB"
+]
+
+let perifericos = [
+  "teclado gamer",
+  "mouse ótico",
+  "webcam HD",
+  "fone com microfone"
+]
+
+// juntando as duas listas
+console.log("Hardwares e perifericos:", hardwares.concat(perifericos));
+
+console.log(`---------------------`);
 
 
