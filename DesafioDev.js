@@ -436,3 +436,26 @@ console.log("Alunos com a média acima de 7:", alunosAprovados);
 
 console.log(`---------------------`);
 
+//23 – Organizar lista de candidatos
+
+
+let candidatos = [
+  "Marcos",
+  "Aline",
+  "Carla",
+  "João",
+  "Fernanda",
+  "Lucas",
+  "Bruno",
+  "Isabela"
+]
+
+// Em ordem alfabetica
+let alfabetica = candidatos.sort();
+console.log("Candidatos em ordem alfabética:", alfabetica);
+
+console.log(`---------------------`);
+
+
+
+
