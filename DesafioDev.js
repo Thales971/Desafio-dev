@@ -386,5 +386,25 @@ console.log("Nova lista em maiusculo:",codigosEmMaiusculo)
 console.log(`---------------------`);
 
 
+//20 – Formatando lista de preços
+
+let precos = [
+  129.9,
+  399.5,
+  259.0,
+  89.9,
+  599.99,
+  39.5,
+  999.0
+]
+
+// adicionando "R$" 
+let reais = precos.map(item => "R$" + item)
+
+console.log(reais)
+
+console.log(`---------------------`);
+
+
 
 
