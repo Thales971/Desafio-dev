@@ -295,3 +295,8 @@ console.table(menuNavegacao);
 
 console.log("Elementos removidos:",elementosRemovidos);
 
+
+console.log(`---------------------`);
+
+
+
